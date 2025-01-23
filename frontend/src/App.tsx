@@ -18,8 +18,16 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
+        <input placeholder='username'></input>
+        <br></br>
+        <input placeholder='password'></input>
+        <br></br>
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          Login
+        </button>
+        <br></br>
+        <button onClick={() => setCount((count) => count + 1)}>
+          Register
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
